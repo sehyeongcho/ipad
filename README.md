@@ -1,6 +1,8 @@
 # iPad 반응형 웹 사이트
 HTML, CSS, JavaScript를 이용한 iPad 반응형 웹 사이트입니다.
 
+![iPad](https://github.com/sehyeongcho/ipad/assets/124948262/4ffd5088-03fb-493a-aab9-a6b8d5be95ad)
+
 - Demo: <a href="https://ipad-gilt.vercel.app/" target="_blank">https://ipad-gilt.vercel.app/</a>
 
 ## 프로젝트 목표
@@ -24,4 +26,4 @@ HTML, CSS, JavaScript를 이용한 iPad 반응형 웹 사이트입니다.
 - `position: absolute`를 사용하게 되면 주변 요소와 상호 작용하지 않고 독립적인 요소가 되기 때문에 해당 요소가 있었던 부분은 사라지게 됩니다. 그러나 `position: absolute`를 사용하지 않고 `transform: translate(x, y)`를 사용하게 되면 주변 요소와 독립적이지 않기 때문에 원래 해당 요소가 있었던 영역은 비워진 채로 남아 있으면서 위치가 이동됩니다. 따라서 위치를 이동시킬 때 비어 있는 공간 없이 요소들이 채워지기를 원한다면 `position: absolute`를 사용해야 합니다.
 - 인라인 요소는 margin, padding의 위아래에 해당하는 값을 정상적으로 가질 수 없습니다. 따라서 위아래에 해당하는 값을 정상적으로 가질 수 있게 하려면 블록 요소로 변경해 주어야 합니다.
 - `margin: 0 auto`는 가운데 정렬하려는 요소가 부모 요소의 내부에 있어야 합니다. 가운데 정렬하려는 요소가 부모 요소보다 큰 경우에는 `margin: 0 auto`가 제대로 적용되지 않습니다. 이럴 때는 flex를 사용해서 가운데 정렬을 해주어야 합니다.
-- JavaScript 파일에서 createElement 메소드를 사용해서 HTML 태그를 만들게 되면 메모리상에만 만들어지기 때문에 append 메소드를 사용해서 넣어주어야 합니다.
+- JavaScript 파일에서 createElement 메소드를 사용해서 HTML 태그를 만들게 되면 메모리상에만 만들어지기 때문에 append 메소드를 사용해서 DOM에 넣어주어야 합니다.
