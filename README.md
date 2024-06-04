@@ -14,3 +14,6 @@ HTML, CSS, JavaScript를 이용한 iPad 반응형 웹 사이트입니다.
 - HTML
 - CSS
 - JavaScript
+
+## 학습 내용
+[ipad wiki](https://github.com/sehyeongcho/ipad/wiki)
